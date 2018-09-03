@@ -114,6 +114,11 @@
             <artifactId>spark-core_2.11</artifactId>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>com.google.cloud.bigtable</groupId>
+            <artifactId>bigtable-hbase-1.x-hadoop</artifactId>
+            <version>${bigtable.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

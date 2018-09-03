@@ -55,6 +55,7 @@
 
     <!-- HBase versions -->
     <hbase-hadoop2.version>1.1.1</hbase-hadoop2.version>
+    <bigtable.version>1.4.0</bigtable.version>
 
     <!-- Kafka versions -->
     <kafka.version>1.0.0</kafka.version>
@@ -918,6 +919,11 @@
         <groupId>org.scala-lang</groupId>
         <artifactId>scala-reflect</artifactId>
         <version>${scala.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.google.cloud.bigtable</groupId>
+        <artifactId>bigtable-hbase-1.x-hadoop</artifactId>
+        <version>${bigtable.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
